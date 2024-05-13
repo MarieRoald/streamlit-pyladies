@@ -1,0 +1,24 @@
+[project]
+name = "streamlit-tutorial-pyladies"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Marie Roald", email = "marie.roald@nb.no"},
+    {name = "Ingerid Løyning Dale", email = "ingerid.dale@nb.no"},
+]
+dependencies = [
+    "streamlit>=1.35.0",
+    "jupyter>=1.0.0",
+    "dhlab>=2.32.0",
+    "plotly>=5.22.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = false
