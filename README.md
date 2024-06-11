@@ -24,7 +24,7 @@ source .venv/bin/activate
 
 **Windows:**
 ```raw
-.venv/Scripts/activate
+.venv\Scripts\activate
 ```
 
 Next, you can install the requirements (`streamlit`, `dhlab`, `plotly` and `jupyter`):
